@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanchie</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+</head>
+<body class="bg-mainBg">
+
+    <!-- Header Area Start Here -->
+    <header class="bg-[#020202]">
+        <div class="w-full bg-no-repeat bg-center bg-cover" style="background-image: url('assets/img/banner.png');">
+            <div class="container">
+                <div 
+                    data-aos="zoom-in"
+                    data-aos-duration="1000"
+                    data-aos-offset="20"
+                    data-aos-once="true"
+                class="md:pt-[150px] md:pb-20 pt-16 pb-10 text-center">
+                    <div class="w-[245px] bg-btn-gradient mx-auto py-[5px] justify-center border border-borderColor rounded-r_100 flex items-center gap-2">
+                        
+                        <!-- Left Comet SVG -->
+                        <div class="relative w-[24px] h-[6px]">
+                            <!-- Comet dot with transparent center -->
+                            <div class="absolute top-[1px] left-0 w-[6px] h-[6px] rounded-full bg-transparent z-0 pointer-events-none">
+                            <div class="w-full h-full rounded-full bg-[#01F1FF] opacity-80 animate-comet" style="box-shadow: 0 0 6px 2px #01F1FF;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Text -->
+                        <span class="inline-block font-Host_Grotesk text-primaryColor font-normal text-sm leading-5">Super Intelligent Systems</span>
+
+                        <!-- Right Comet SVG -->
+                        <div class="relative w-[24px] h-[6px]">
+                            <div class="absolute top-[1px] right-0 w-[6px] h-[6px] rounded-full bg-transparent z-0 pointer-events-none">
+                            <div class="w-full h-full rounded-full bg-[#01F1FF] opacity-80 animate-comet-reverse" style="box-shadow: 0 0 6px 2px #01F1FF;"></div>
+                            </div>   
+                        </div>
+
+                    </div>
+
+                    <h1 class="font-Host_Grotesk font-extrabold md:text-100xl text-[46px] leading-[48px] md:pt-0 pt-5 md:leading-[120px] bannerText -tracking-[2%]">Shanchie Research</h1>
+                    <p class="pt-3 font-Host_Grotesk font-normal md:text-lg text-base leading-6 md:leading-7 md:pt-8 text-primaryColor">IT Company . Software Solution</p>
+                    <p class="md:w-510 w-full mx-auto font-Host_Grotesk font-normal md:text-lg text-sm leading-6 md:leading-7 pt-1 text-secondaryColor">Providing innovative and reliable technology service</p>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- Header Area Start Here -->
+     
+
+    <!-- Get In Touch Area Start Here -->
+     <section class="md:pb-20 pb-16">
+        <div class="container xl:px-0 px-[18px]">
+            <div
+                 data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-offset="20"
+                data-aos-once="true"
+            class="rounded-r_32 bg-primaryColor bg-opacity-10 backdrop-blur-[60px] xl:p-20 lg:p-10 p-7 flex lg:flex-row flex-col justify-between items-start xl:gap-20 lg:gap-5 gap-10">
+                <div class="lg:w-440 w-full">
+                    <h4 class="font-Host_Grotesk lg:text-60xl text-40xl leading-[48px] lg:leading-68 font-bold text-primaryColor">Get in <span class="inline-block bannerTexts">Touch</span></h4>
+                    <p class="font-Host_Grotesk font-normal lg:text-lg text-base leading-6 lg:leading-7 text-secondaryColor pt-4">We’re here to help you. Reach out to our team and we’ll make sure you get the answers.</p>
+                </div>
+
+                <div class="lg:w-600 w-full">
+                    <div>
+                        <form action="https://formspree.io/f/xeognaob" method="POST">
+                            <div class="grid md:grid-cols-2 grid-cols-1 gap-7">
+                                <input class="font-Host_Grotesk font-normal text-base leading-6 text-secondaryColor focus:outline-none border-b border-white border-opacity-[28%] bg-transparent pb-4" type="text" name="legal_name" placeholder="Your Name">
+                                <input class="font-Host_Grotesk font-normal text-base leading-6 text-secondaryColor focus:outline-none border-b border-white border-opacity-[28%] bg-transparent pb-4" type="email" name="email" placeholder="Email Address">
+                            </div>
+
+                            
+                            <textarea class="w-full mt-7 font-Host_Grotesk font-normal text-base leading-6 text-secondaryColor focus:outline-none border-b border-white border-opacity-[28%] bg-transparent h-[108px] overflow-x-hidden" name="message" id="" placeholder="Type Message...."></textarea>
+                            <button type="submit" class="relative font-Host_Grotesk bg-primaryColor rounded-r_12 font-semibold text-base leading-6 text-black py-3 px-6 md:inline-block block text-center mt-10 transition ease-in-out duration-500 hover:bg-borderColor hover:transition hover:ease-in-out hover:duration-500">Submit</button>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Get In Touch Area End Here -->
+
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/aos_script.js"></script>
+</body>
+</html>
